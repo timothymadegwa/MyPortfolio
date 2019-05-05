@@ -1,0 +1,108 @@
+*{
+    margin: 1mm;
+}
+H1 { color: black;
+    text-align: centre;
+       
+     }
+html{
+    background:whitesmoke ;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover; 
+    font-family: candara ;
+}
+body{
+    color: black;
+    
+}
+ul {
+    list-style-type: bold;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: None;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: blue;
+  }
+.topnav li a:active {
+    background-color: darkgrey;
+    color: aqua;
+}
+ul.topnav li a:hover:not(.active) {background-color: aqua;}
+  
+  
+@media screen and (max-width: 600px) { 
+    ul.topnav li {float: none;}
+  }
+
+.card {
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.image {
+    background-color: lightgrey;
+    width: 75%;
+    height: 50%;
+    padding: 0px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background:#333;
+    margin-top: 20px;
+    color:white;
+  }
+}

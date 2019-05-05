@@ -1,0 +1,3 @@
+This is a blog post on medium that I wrote in 2018 looking at the distribution of people with a heart problem mainly focusing on their sex and wherether they experienced some sort of chest pain (Angina).
+It was is a post with a very s[pecial place in my heart as I have alot of passion in using Data Science and AI in Healthcare as I aim to use this technology to enable early detection of dieseses with out long, painful and expesive tests.
+this blog post only goes in the statistical distribution of the various groups and not the prediction using Machine Learning algorithms. Click here to have a read. 
