@@ -58,14 +58,13 @@ ul.topnav {
     padding: 5px 20px;
     text-decoration: none;
     
-}
-.topnav a:hover {
-    background-color: #ddd;
+}  
+
     
   }
 .topnav li a:active {
     background-color: darkgrey;
-    color: aqua;
+    color: blue;
 }
 ul.topnav li a:hover:not(.active) {background-color: aqua;}
   
@@ -81,10 +80,10 @@ ul.topnav li a:hover:not(.active) {background-color: aqua;}
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    box-shadow: 10px 15px 5px #aaaaaa;
+    box-shadow: 10px 15px 5px grey;
 }
  .card:hover{
-    box-shadow: 10px 10px 10px 10px aqua;}
+    box-shadow: 5px 5px 5px 10px aqua;}
 .image {
     background-color: lightgrey;
     width: 75%;
@@ -107,5 +106,8 @@ ul.topnav li a:hover:not(.active) {background-color: aqua;}
     background:#333;
     margin-top: 20px;
     color:white;
+  }
+  .footer a {
+      color: white;
   }
 }
