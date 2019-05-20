@@ -61,7 +61,7 @@ ul.topnav {
 }
 .topnav a:hover {
     background-color: #ddd;
-    color: blue;
+    
   }
 .topnav li a:active {
     background-color: darkgrey;
@@ -81,13 +81,16 @@ ul.topnav li a:hover:not(.active) {background-color: aqua;}
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    
+    box-shadow: 10px 15px 5px #aaaaaa;
 }
+ .card:hover{
+    box-shadow: 10px 10px 10px 10px aqua;}
 .image {
     background-color: lightgrey;
     width: 75%;
     height: 50%;
     padding: 0px;
+    object-position: center;
 }
 
 
