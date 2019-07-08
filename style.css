@@ -3,7 +3,8 @@
 }
 H1 { color: black;
     text-align: centre;
-}
+       
+     }
 html{
     background:whitesmoke ;
     -webkit-background-size: cover;
@@ -23,10 +24,12 @@ ul {
     overflow: hidden;
     background-color: black;
 }
-li a {
+
+li {
     float: left;
 }
-/*li a {
+
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -34,7 +37,9 @@ li a {
     text-decoration: None;
 }
 
-*/
+li a:hover {
+    background-color: blue;
+}
 
 ul.topnav {
     list-style-type: none;
@@ -55,16 +60,18 @@ ul.topnav {
     
 }  
 
+    
+  }
 .topnav li a:active {
     background-color: darkgrey;
     color: blue;
 }
 ul.topnav li a:hover:not(.active) {background-color: aqua;}
   
-
-@media screen and (max-width: 500px) { 
+  
+@media screen and (max-width: 600px) { 
     ul.topnav li {float: none;}
-}
+  }
 
 .card {
     background-color: lightgray;
@@ -103,3 +110,4 @@ ul.topnav li a:hover:not(.active) {background-color: aqua;}
   .footer a {
       color: white;
   }
+}
