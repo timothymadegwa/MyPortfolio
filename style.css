@@ -25,21 +25,16 @@ ul {
     background-color: black;
 }
 
-li {
-    float: left;
-}
-
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 15px 20px;
     text-decoration: None;
+    float: left;
 }
 
-li a:hover {
-    background-color: blue;
-}
+
 
 ul.topnav {
     list-style-type: none;
@@ -60,8 +55,6 @@ ul.topnav {
     
 }  
 
-    
-  }
 .topnav li a:active {
     background-color: darkgrey;
     color: blue;
@@ -110,4 +103,3 @@ ul.topnav li a:hover:not(.active) {background-color: aqua;}
   .footer a {
       color: white;
   }
-}
