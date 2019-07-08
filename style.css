@@ -3,8 +3,7 @@
 }
 H1 { color: black;
     text-align: centre;
-       
-     }
+}
 html{
     background:whitesmoke ;
     -webkit-background-size: cover;
@@ -27,16 +26,15 @@ ul {
 li a {
     float: left;
 }
-li a {
+/*li a {
     display: block;
     color: white;
     text-align: center;
     padding: 15px 20px;
     text-decoration: None;
-    float: left;
 }
 
-
+*/
 
 ul.topnav {
     list-style-type: none;
@@ -64,9 +62,9 @@ ul.topnav {
 ul.topnav li a:hover:not(.active) {background-color: aqua;}
   
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 500px) { 
     ul.topnav li {float: none;}
-  }
+}
 
 .card {
     background-color: lightgray;
