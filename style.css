@@ -24,7 +24,9 @@ ul {
     overflow: hidden;
     background-color: black;
 }
-
+li a {
+    float: left;
+}
 li a {
     display: block;
     color: white;
@@ -61,7 +63,7 @@ ul.topnav {
 }
 ul.topnav li a:hover:not(.active) {background-color: aqua;}
   
-  
+
 @media screen and (max-width: 600px) { 
     ul.topnav li {float: none;}
   }
