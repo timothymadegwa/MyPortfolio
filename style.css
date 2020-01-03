@@ -61,11 +61,11 @@ ul.topnav {
 
     
 
-.topnav li a:active {
-    background-color: darkgrey;
-    color: blue;
+.topnav li a.active {
+    background-color: aqua;
+    color: black;
 }
-ul.topnav li a:hover:not(.active) {background-color: aqua;}
+/*ul.topnav li a:hover:not(.active) {background-color: aqua;} */
   
   
 @media screen and (max-width: 600px) { 
