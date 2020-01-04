@@ -6,7 +6,7 @@ H1 { color: black;
        
      }
 html{
-    background:whitesmoke ;
+    background:white;
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -73,7 +73,7 @@ ul.topnav {
   }
 
 .card {
-    background-color: lightgray;
+    background-color: whitesmoke;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -84,7 +84,6 @@ ul.topnav {
  .card:hover{
     box-shadow: 5px 5px 5px 10px aqua;}
 .image {
-    background-color: lightgrey;
     width: 75%;
     height: 50%;
     padding: 0px;
