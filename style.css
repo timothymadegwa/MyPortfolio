@@ -54,7 +54,7 @@ ul.topnav {
   
   ul.topnav li a {
     display: block;
-    color: white;
+    color: lightgray;
     text-align: center;
     padding: 5px 20px;
     text-decoration: none;}  
@@ -62,8 +62,8 @@ ul.topnav {
     
 
 .topnav li a.active {
-    background-color: aqua;
-    color: black;
+    background-color: grey;
+    color: white;
 }
 /*ul.topnav li a:hover:not(.active) {background-color: aqua;} */
   
@@ -79,10 +79,10 @@ ul.topnav {
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    box-shadow: 10px 15px 5px grey;
+    box-shadow: 10px 15px 5px lightgrey;
 }
  .card:hover{
-    box-shadow: 5px 5px 5px 10px aqua;}
+    box-shadow: 5px 5px 5px 5px grey;}
 .image {
     width: 75%;
     height: 50%;
