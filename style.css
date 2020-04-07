@@ -91,7 +91,11 @@ ul.topnav {
     padding: 0px;
     object-position: center;
 }
-
+.cv {
+    object-position: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .row:after {
     content: "";
