@@ -1,5 +1,6 @@
 *{
     margin: 1mm;
+    padding: 1mm;
 }
 H1 { color: black;
     text-align: centre;
@@ -85,8 +86,8 @@ ul.topnav {
  .card:hover{
     box-shadow: 5px 5px 5px 5px grey;}
 .image {
-    width: 75%;
-    height: 50%;
+    width: 50%;
+    height: 30%;
     padding: 0px;
     object-position: center;
 }
