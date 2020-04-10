@@ -100,12 +100,6 @@ ul.topnav {
     padding-right: 10%;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-  
 
 .footer {
     padding: 15px 20px;
