@@ -1,6 +1,7 @@
 *{
     margin: 1mm;
     padding: 1mm;
+    font-size: large;
 }
 H1 { color: black;
     text-align: centre;
@@ -33,6 +34,10 @@ ol li {
     float: left;
 }
 */
+p, ul {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 li a {
     display: block;
     color: white;
