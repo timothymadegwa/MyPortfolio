@@ -1,51 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Timothy Madegwa">
     <link rel="shortcut icon" href="Images/Icon.png">
-    <title>Timothy Madegwa | Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-</head>
-<body>
-
-    <ul class='topnav'>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Portfolio.html">Portfolio</a></li>
-        <li><a class="active" href="Projects.html">Projects</a></li>
-        <li><a href="Blogs.html">Blogs</a></li>
-        <li><a href="My_CV.html">My CV</a></li>
-        
-    </ul>
-
-    <div class="row">
-      <div class="leftcolumn">
-        <div class="card">
-          <a href="https://kopapap-api.herokuapp.com/" target="_blank"><h3>KOPAPAP</h3></a>
-          <div class="image" >
-              <object data='Images/kopapap.png' width= '75%' height='50%'></object>
-          </div>
-          <p>KopaPap an application that does instant credit scoring for an individual/ institution (SME) in Kenya (based on Machine learning) and give lower interest rates 
-              on loans and overdrafts as compared to digital lenders. It is built using Python, Flask, Sci-kit learn and Finastra’s Onboarding and Information API. The algorithm 
-              predicts the probability that the applicant will pay back a loan based on a pre-trained model.
-
- 
-                Click <a href="https://kopapap-api.herokuapp.com/" target="_blank">here</a> to demo KopaPap. </p>
+    <title>Timothy Madegwa | Projects</title>
+    <style>
+      body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Timothy Madegwa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Projects.html">Projects<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="My_CV.html">My CV</a>
+            </li>
+            
+          </ul>
         </div>
-        
+      </nav><br><br><br><br>
+      <div class="card mb-3">
+        <img src="Images/kopapap.png" class="card-img-top img-fluid rounded mx-auto d-block" alt="Chania" style="width: 70%;">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://kopapap-api.herokuapp.com/" target="_blank">KOPAPAP</a></h5>
+          <p class="card-text">KopaPap an application that does instant credit scoring for an individual/ institution (SME) in Kenya (based on Machine learning) and give lower interest rates 
+            on loans and overdrafts as compared to digital lenders. It is built using Python, Flask, Sci-kit learn and Finastra’s Onboarding and Information API. The algorithm 
+            predicts the probability that the applicant will pay back a loan based on a pre-trained model.
+
+            Click <a href="https://kopapap-api.herokuapp.com/" target="_blank">here</a> to demo KopaPap.</p>
+        </div>
       </div>
+    </div>
+  </body>
+   <!-- Footer -->
+<footer class="page-footer font-large special-color-dark pt-4" style="background-color: rgb(21, 22, 21); color: white;" >
 
+  <!-- Footer Elements -->
+  <div class="container">
 
- 
-  <div class="footer">
-  
-    <a href='https://www.linkedin.com/in/timothymadegwa/' target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    <a href='https://github.com/timothymadegwa/' target="_blank"><i class="fab fa-github"></i></a>
-    <a href='mailto: timothymadegwa@gmail.com'><i class="far fa-envelope"> E-Mail</i></a>
-    <i class="fas fa-phone-square">  +254724245620 </i>
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center" >
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/timothymadegwa/" target="_blank" style="color: white;">
+          <i class="fab fa-linkedin-in fa-lg"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item" >
+        <a class="btn-floating btn-fb mx-1" href="https://github.com/timothymadegwa/" target="_blank" style="color: white;">
+          <i class="fab fa-github fa-lg"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1" href="mailto: timothymadegwa@gmail.com" target="_blank" style="color: white;">
+          <i class="far fa-envelope fa-lg"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1" href="+254724245620" target="_blank" style="color: white;">
+          <i class="fas fa-phone-square fa-lg"> +254724245620 </i>
+        </a>
+      </li>
+      
+    </ul>
+    <!-- Social buttons -->
+
   </div>
+  <!-- Footer Elements -->
 
-</body>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Timothy Madegwa. All Rights Reserved
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 </html>
