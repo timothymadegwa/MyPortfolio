@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+      <div class="card-deck"><div class="card mb-3">
+        <img src="{% static 'Images/Heart-beat.jpg' %}" class="card-img-top img-fluid rounded mx-auto d-block" alt="Chania" >
+        <div class="card-body">
+          <h5 class="card-title"><a href='https://github.com/timothymadegwa/Projects/blob/master/Machine%20Learning%20with%20the%20heart/cardio.ipynb' target="_blank">MACHINE LEARNING WITH THE HEART</a></h5>
+          <p class="card-text">The aim of the competition is to create a predictive model using heart data provided by Driven Data to predict the probability of a person suffereing from a heart disease.</p>
+          <p>This is the code I used when I participated in the Machine learning with the heart competition. You can find a detailed description of the competition <a class="btn btn-success" role="button" href='https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/' target="_blank">here.</a>
+    
+            This submission scored 0.369 (in the top 16%) against the winning score of 0.000(Judged on Log loss)</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="{% static 'Images/NYSPIC.jpg' %}" class="card-img-top img-fluid rounded mx-auto d-block" alt="Chania" style="width: 70%;">
+        <div class="card-body">
+          <h5 class="card-title"><a href='https://github.com/timothymadegwa/Zindi-Trasnport/blob/master/Zindi%20transport%20problem.ipynb' target="_blank">ZINDI TRANSPORT PROBLEM</a></h5>
+          <p class="card-text">The aim of the competition is to create a predictive model using traffic data provided from Uber Movement and historic bus ticket sales data from Mobiticket to predict the number of tickets that will be sold for buses into Nairobi from cities in "up country" Kenya.</p>
+          <p>This is the code I used when I participated in the Zindi transport competition. You can find a detailed description of the competition <a class="btn btn-success" role="button" href='https://zindi.africa/competitions/traffic-jam-predicting-peoples-movement-into-nairobi' target="_blank">here</a>
+    
+            This submission scored 4.425 against the winning score of 3.302(Judged on Mean Absolute Error)
+        </div>
+      </div>
+    </div></div>
+  </body>
+  
+  {% endblock content %}

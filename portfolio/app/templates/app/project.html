@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+      <div class="card-deck"><div class="card mb-3">
+        <img src="{% static 'Images/kopapap.png' %}" class="card-img-top img-fluid rounded mx-auto d-block" alt="Chania" style="width: 70%;">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://kopapap-api.herokuapp.com/" target="_blank">KOPAPAP</a></h5>
+          <p class="card-text">KopaPap an application that does instant credit scoring for an individual/ institution (SME) in Kenya (based on Machine learning) and give lower interest rates 
+            on loans and overdrafts as compared to digital lenders. It is built using Python, Flask, Sci-kit learn and Finastra’s Onboarding and Information API. The algorithm 
+            predicts the probability that the applicant will pay back a loan based on a pre-trained model.
+
+            Click <a class="btn btn-success" role="button" href="https://kopapap-api.herokuapp.com/" target="_blank">here</a> to demo KopaPap.</p>
+        </div>
+      </div>
+    </div></div>
+  </body>
+  {% endblock content %}
