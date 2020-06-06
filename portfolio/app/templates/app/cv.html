@@ -3,9 +3,9 @@
 
 {% block content %}
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="Attachments/CV.pdf" allowfullscreen></iframe>
+        <iframe class="embed-responsive-item" src="{% static 'Attachments/CV.pdf' %}" allowfullscreen></iframe>
       </div><br>
-      <a href="Attachments/CV.pdf" class="btn btn-success" role="button">Download</a>
+      <a href="{% static 'Attachments/CV.pdf' %}" class="btn btn-success" role="button">Download</a>
     </div>
   </body><br>
  {% endblock content %}
