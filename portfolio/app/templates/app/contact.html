@@ -2,6 +2,13 @@
 {% load static %}
 
 {% block content %}
+
+    {% if message %}
+    <div class="alert alert-success" role="alert">
+        {{ message}}
+      </div><br>
+    {% endif %}
+
 <form action="{% url 'contact' %}" method="post">
     {% csrf_token %}
     <form>

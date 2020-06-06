@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Contact
 
+import datetime
+
 # Create your views here.
 def index(request):
     return render(request, 'app/index.html')
@@ -26,9 +28,12 @@ def contact(request):
         phone = request.POST['phone']
         message = request.POST['message']
 
-        contact =Contact(first_name=f_name, last_name=l_name, email=email,phone=phone,message=message)
+        contact =Contact(first_name=f_name, last_name=l_name, email=email,phone=phone,message=message, contact_date=datetime.datetime.now())
         contact.save()
+        reply_body = 'Thank you {},  Your message has been sent successfully'.format(f_name)
 
-        return render(request, 'app/contact.html', )
+        reply = {'message': reply_body }
+
+        return render(request, 'app/contact.html',  reply)
 
     return render(request, 'app/contact.html')
