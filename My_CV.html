@@ -1,89 +1,41 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Timothy Madegwa">
-    <link rel="shortcut icon" href="Images/Icon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Timothy Madegwa | My CV</title>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand bg-light" href="index.html"><img src="Images/Icon.png" height="50" width="100" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="Portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Blogs.html">Blogs</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="My_CV.html">My CV<span class="sr-only">(current)</span></a>
-            </li>
-            
-          </ul>
-        </div>
-      </nav><br><br><br><br>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="Attachments/CV.pdf" allowfullscreen></iframe>
-      </div><br>
-      <a href="Attachments/CV.pdf" class="btn btn-success" role="button">Download</a>
-    </div>
-  </body><br>
-   <!-- Footer -->
-<footer class="page-footer font-large special-color-dark pt-4" style="background-color: rgb(21, 22, 21); color: white;" >
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="View or download Timothy Madegwa's résumé as a Senior Machine Learning Engineer.">
+  <meta name="theme-color" content="#f5f7f2">
+  <link rel="icon" href="Images/Icon.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Résumé — Timothy Madegwa</title>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">TM</span><span>Timothy Madegwa</span></a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="primary-navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="Portfolio.html">About</a></li><li><a href="Projects.html">Projects</a></li><li><a href="Blogs.html">Writing</a></li><li><a href="My_CV.html" aria-current="page">Résumé</a></li><li><a class="nav-contact" href="mailto:timothymadegwa@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Footer Elements -->
-  <div class="container">
+  <main class="page-shell">
+    <header class="page-intro">
+      <span class="eyebrow">The details</span>
+      <h1>Résumé</h1>
+      <p>Experience in production machine learning, MLOps, risk analytics and software engineering.</p>
+    </header>
+    <section aria-label="Résumé document">
+      <div class="cv-actions">
+        <p>Senior Machine Learning Engineer · Tallinn, Estonia</p>
+        <a class="button" href="Attachments/CV.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+      </div>
+      <iframe class="cv-frame" src="Attachments/CV.pdf" title="Timothy Madegwa résumé"></iframe>
+    </section>
+  </main>
 
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center" >
-      <li class="list-inline-item">
-        <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/timothymadegwa/" target="_blank" style="color: white;">
-          <i class="fab fa-linkedin-in fa-lg"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item" >
-        <a class="btn-floating btn-fb mx-1" href="https://github.com/timothymadegwa/" target="_blank" style="color: white;">
-          <i class="fab fa-github fa-lg"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1" href="mailto:timothymadegwa@gmail.com" target="_blank" style="color: white;">
-          <i class="far fa-envelope fa-lg"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1" style="color: white;" href="tel:+254724245620">
-          <i class="fas fa-phone-square fa-lg"> +254 724 245 620 </i>
-        </a>
-      </li>
-      
-    </ul>
-    <!-- Social buttons -->
-
-  </div>
-  <!-- Footer Elements -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2021 Timothy Madegwa. All Rights Reserved
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
+  <footer class="site-footer"><div class="footer-wrap"><span class="footer-copy">© <span data-current-year>2026</span> Timothy Madegwa</span><div class="footer-links"><a href="https://www.linkedin.com/in/timothymadegwa/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/timothymadegwa/" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:timothymadegwa@gmail.com">Email ↗</a></div></div></footer>
+  <script src="site.js" defer></script>
+</body>
 </html>
