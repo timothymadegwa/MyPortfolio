@@ -16,5 +16,16 @@ if (menuButton && navigation) {
   });
 }
 
-const year = document.querySelector('[data-current-year]');
-if (year) year.textContent = String(new Date().getFullYear());
+const currentYear = String(new Date().getFullYear());
+document.querySelectorAll('[data-current-year]').forEach((element) => {
+  element.textContent = currentYear;
+});
+
+const experienceStart = new Date(2018, 3, 1);
+const today = new Date();
+const anniversary = new Date(today.getFullYear(), experienceStart.getMonth(), experienceStart.getDate());
+const experienceYears = today.getFullYear() - experienceStart.getFullYear() - Number(today < anniversary);
+
+document.querySelectorAll('[data-experience-years]').forEach((element) => {
+  element.textContent = `${experienceYears}+ years`;
+});
